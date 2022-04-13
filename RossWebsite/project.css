@@ -1,0 +1,62 @@
+.normal-text {
+    font-size: 18px;
+    color: chartreuse;
+}
+
+body {
+    margin: 0;
+}
+
+/*menu/nav bar*/
+ul {
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 99.85%;
+    overflow: hidden;
+    background-color: deepskyblue;
+    border: 1px solid #555;
+    position: fixed;
+    top: 0;
+}
+
+/*border on button and text alignment*/
+li {
+    text-align: center;
+    float: right;
+    border-left: 1px solid #555;
+}
+
+li:first-child {
+    border-right: 1px solid #555;
+    margin-right: 15%;
+}
+
+/*menu/nav button*/
+li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*change colour when hovering*/
+li a:hover {
+    background-color: darkslateblue;
+    color: white;
+}
+
+/*show active page*/
+.active {
+    background-color: lightblue;
+    color: black;
+}
+
+/*divide content from nav bar*/
+.body {
+    margin-left: 15%;
+    padding-top: 10px;
+    margin-top: 50px;
+    height: 100%;
+}

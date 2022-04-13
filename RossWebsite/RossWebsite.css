@@ -1,0 +1,96 @@
+.normal-text {
+    font-size: 18px;
+    color: rgb(226, 110, 43);
+}
+
+.name-title {
+    position: absolute;
+    font-size: 42px;
+    color: black;
+
+    /*rough guesses to make centered*/
+    right: 30%;
+    margin-top: 60px;
+}
+
+body {
+    margin: 0;
+}
+
+/*menu/nav bar*/
+ul {
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    width: 99.85%; /*stops it looking like it runs offscreen*/
+    overflow: hidden;
+    background-color: deepskyblue;
+    border: 1px solid #555;
+    /*position: fixed;*/
+    top: 0;
+}
+
+/*border on button and text alignment*/
+li {
+    text-align: center;
+    float: right;
+    margin-top: 148px;
+    border-left: 1px solid #555;
+    border-top: 1px solid #555;
+    /*border-bottom: 1px solid #555;*/
+}
+
+/*menu/nav button*/
+li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*no bottom border on bottom button*/
+/*li:last-child {
+    border-right: 1px solid #555;
+    /*border-bottom: none;
+    /*margin-right: 15%;
+}*/
+
+/*style of first button only when buttons
+are right-aligned*/
+li:first-child {
+    border-right: 1px solid #555;
+    margin-right: 15%;
+}
+
+/*change colour when hovering*/
+li a:hover {
+    background-color: darkslateblue;
+    color: white;
+}
+
+/*show active page*/
+.active {
+    background-color: lightblue;
+    color: black;
+}
+
+/*divide content from nav bar*/
+.body {
+    margin-left: 15%;
+    padding-top: 10px; /*padding is space in element*/
+    margin-top: 0px; /*margin is space around element*/
+    height: 100%;
+}
+
+.nav-bar-img {
+    position: absolute;
+    display: block;
+    margin-top: 2px;
+    margin-left: 15%;
+    width: 194px;
+    height: 194px;
+    border: 1px solid #555;
+    border-radius: 100px;
+}
