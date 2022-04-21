@@ -84,6 +84,26 @@ li a:hover {
     height: 100%;
 }
 
+/*style for the webpage footer*/
+.footer {
+    margin-top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/*allows the footer to either
+    be at the bottom of content
+    or page depending which is 
+    longer*/
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .nav-bar-img {
     position: absolute;
     display: block;

@@ -7,8 +7,22 @@ body {
     margin: 0;
 }
 
+.side-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    overflow: hidden;
+    background-color: deepskyblue;
+    border: 1px solid #555;
+    position: absolute;
+    left: 0;
+    margin-top: 10%;
+}
+
 /*menu/nav bar*/
-ul {
+/*ul {*/
+.top-bar {
     font-size: 20px;
     list-style-type: none;
     margin: 0;
@@ -22,13 +36,15 @@ ul {
 }
 
 /*border on button and text alignment*/
-li {
+/*li {*/
+.top-bar-item {
     text-align: center;
     float: right;
     border-left: 1px solid #555;
 }
 
-li:first-child {
+/*li:first-child {*/
+.top-bar-item:first-child {
     border-right: 1px solid #555;
     margin-right: 15%;
 }
@@ -59,4 +75,32 @@ li a:hover {
     padding-top: 10px;
     margin-top: 50px;
     height: 100%;
+}
+
+/*style for the webpage footer*/
+.footer {
+    margin-top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/*allows the footer to either
+    be at the bottom of content
+    or page depending which is 
+    longer*/
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.project-box {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
 }
